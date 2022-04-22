@@ -1,0 +1,296 @@
+@import "src/assets/framework/_breakpoints";
+.price3{
+
+    display: none;
+
+    @include tablets{
+      display: block;
+    }
+
+
+}
+.price2{
+
+
+    div:last-child{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #7B7976;
+      padding-left: 5px;
+    }
+    div{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #141311;
+      span{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #B7B4AE;
+        margin-left: 5px;
+      }
+    display: none;
+      @include mobile{
+        display: block;
+      }
+      @include tablets{
+        display: none;
+      }
+  }
+
+}
+.exit{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.card{
+
+  min-width: 300px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 386px;
+  @include mobile{
+    max-width: 477px;
+    max-height: 213px;
+    min-height: 213px;
+  }
+  @include tablets{
+    max-width: 850px;
+    max-height: 143px;
+    min-height: 143px;
+  }
+  .content{
+    position: relative;
+    height: 100%;
+    @include mobile{
+      display: flex;
+      flex-direction: row;
+      max-height: 213px;
+    }
+    @include tablets{
+      max-width: 850px;
+      max-height: 143px;
+      width: 100%;
+    }
+    img{
+      width: 100%;
+      max-height: 180px;
+      height: 180px;
+      min-height: 180px;
+      @include mobile{
+        max-width: 173px;
+        max-height: 128px;
+        min-height: 128px;
+        height: 128px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+      }
+      @include tablets{
+        max-width: 173px;
+        max-height: 100%;
+        min-width: 173px;
+        min-height: 100%;
+      }
+    }
+
+    padding: 15px;
+    .description{
+      height: 100%;
+      max-height: 175px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 0;
+
+      @include mobile{
+        margin-left: 20px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      @include tablets{
+        width: 100%;
+      }
+    .title{
+    margin-top: 10px;
+      h2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #141311;
+        margin: 0;
+      }
+      span{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #7B7976;
+
+      }
+    }
+      .price{
+      @include mobile{
+        display: none;
+      }
+        div:last-child{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          color: #7B7976;
+        }
+        div{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: #141311;
+          span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #B7B4AE;
+            margin-left: 5px;
+          }
+        }
+      }
+      .totalPrice{
+        .total{
+          span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #B7B4AE;
+          }
+          div{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #7B7976;
+
+            span{
+              margin-left: 5px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 29px;
+              color: #E0E0E0;
+            }
+          }
+          justify-content: space-between;
+          display: flex;
+          flex-direction: column;
+        }
+        @include tablets{
+          width: 100%;
+        div{
+          display: flex;
+          flex-direction: row;
+          .price3{
+            div:last-child{
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 17px;
+              color: #7B7976;
+            }
+            div{
+              display: flex;
+              align-items: center;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 22px;
+              color: #141311;
+              span{
+                margin-left: 5px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #B7B4AE;
+              }
+            }
+
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+          }
+
+        }
+        .total{
+          span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #B7B4AE;
+          }
+          div{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #7B7976;
+            span{
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 29px;
+              color: #E0E0E0;
+            }
+          }
+          justify-content: space-between;
+          display: flex;
+          flex-direction: column;
+        }
+
+        }
+        .button{
+          align-self: flex-end;
+        }
+      display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        div{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px ;
+          line-height: 29px;
+          color: #141311;
+          span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #B7B4AE;
+          }
+          div{
+            span{
+              font-weight: 500;
+              font-size: 24px ;
+              line-height: 29px;
+              color: #E0E0E0;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

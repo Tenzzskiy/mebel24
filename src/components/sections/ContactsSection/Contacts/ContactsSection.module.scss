@@ -1,0 +1,37 @@
+.section{
+  width: 100%;
+  height: 100%;
+  background: #F5F3EE;
+  .content{
+    padding: 80px 15px 30px 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+    @media (min-width: 1000px) {
+      padding: 110px 15px 30px 15px;
+    }
+    .title{
+      margin-bottom: 20px;
+    }
+  }
+}
+.flex{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    padding: 0 15px 120px 15px;
+    gap: 20px;
+  }
+}
+.map{
+  height: 232px;
+  @media (min-width: 1000px) {
+    width: 100%;
+    height: 405px;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,303 @@
+[
+  {
+    "id": 111,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 1,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 2,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 3,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 4,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 5,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],
+    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 211,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 6,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 7,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 8,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 9,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 10,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 311,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 11,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 12,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 13,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 14,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 15,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 411,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 16,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 17,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 18,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 19,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 20,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 511,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 21,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 22,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 23,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 24,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 25,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 611,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 26,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 27,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 28,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 29,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 30,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 711,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 31,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 32,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 33,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 34,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 35,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 811,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 36,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 37,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 38,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 39,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 40,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 911,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 41,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 42,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 43,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 44,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 45,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  },
+  {
+    "id": 1011,
+    "mainImg": "/images/catalog/1.jpg",
+    "name": "Комплектация",
+    "imgArray": [
+      {
+        "id": 46,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 47,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 48,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 49,
+        "img":"/images/catalog/1.jpg"
+      },
+      {
+        "id": 50,
+        "img":"/images/catalog/1.jpg"
+      }
+    ],    "title": "Диван имени Кирилла Ивашкина",
+    "article": "90-540",
+    "price": 1300,
+    "secondPrice": 200
+  }
+]

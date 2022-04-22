@@ -1,0 +1,100 @@
+@import "src/assets/framework/_breakpoints";
+.hover{
+  display: none;
+  @include tablets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #141311;
+    background: #FFC46B;
+    border-radius: 30px;
+    width: 173px;
+    height: 40px;
+      transition: all 0.1s;
+  }
+}
+.disable{
+    display: none !important;
+
+}
+.background{
+  background: #B7B4AE !important;
+  div{
+    width: 100% !important;
+  }
+}
+.empty_bucket{
+  max-width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item5{
+    padding: 0 15px;
+    transition: all 0.3s;
+    background: #141311;
+    border-radius: 30px;
+    width: 173px;
+    height: 40px;
+
+    align-items: center;
+    display: flex;
+    color: white;
+    div{
+        width: 50%;
+        height: 100%;
+        display: flex;
+    }
+    div:last-child{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.num{
+    display: flex;
+    justify-content: flex-start !important;
+    width: 100%;
+    align-items: center;
+}
+.totalSum{
+
+    color: white;display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-left: 2px solid rgba(183, 180, 174, 0.49);
+
+}
+.bucket{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    svg{
+        margin-right: 5px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+
+    }
+    div:last-child{
+        justify-content: flex-start!important;
+    }
+}
+.empty{
+  display: flex;
+  justify-content: flex-start !important;
+  margin-left: 10px;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #D9D7D4;
+}

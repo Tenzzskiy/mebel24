@@ -1,0 +1,96 @@
+@import 'src/assets/framework/_breakpoints';
+.modal{
+  z-index: 7;
+  position: relative;
+  width: 100%;
+  height: 124px;
+  max-height: 124px;
+  min-height: 124px;
+  background: white;
+  bottom: 0;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
+  border-radius: 20px 20px 0px 0px;
+  position: fixed;
+  .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 15px 20px 15px;
+    .leftSide{
+      font-family: font-2;
+      div{
+        font-family: font-3;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #141311;
+        span{
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          color: #E0E0E0;
+        }
+      }
+
+  p{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #669E65;
+  }
+    }
+    .rightSide{
+      font-family: font-2;
+
+
+    }
+  span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #B7B4AE;
+  }
+  }
+}
+@include mobile{
+  .modal{
+    display: none;
+  }
+}
+.span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #B7B4AE;
+  width: 100%;
+  height: 100%;
+}
+.second_date{
+  background: #FFFCE8;
+  /* 373773 */
+
+  border: 1px solid #373737;
+  &:focus{
+    background: #FFE200 !important;
+  }
+  &:hover{
+    background: #FFE200;
+    border: 1px solid #373737;
+    box-sizing: border-box;
+    transition: all 0.3s;
+  }
+  transition: all 0.3s;
+  cursor: pointer;
+  outline: none;text-align: center;
+  width: 100%;
+  height: 36px;
+  border-radius: 30px;
+  text-decoration: none;
+}

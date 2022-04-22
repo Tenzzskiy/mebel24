@@ -1,0 +1,26 @@
+@import 'src/assets/framework/_breakpoints';
+@include mobile{
+  .header_content{
+    display: none;
+  }
+}
+.title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #141311;
+  margin-bottom: 15px;
+}
+.description{
+  color: #7B7976;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.header_content{
+  margin: 0 auto;
+  padding: 0 15px;
+}

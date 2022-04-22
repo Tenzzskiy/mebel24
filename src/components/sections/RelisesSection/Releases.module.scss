@@ -1,0 +1,67 @@
+@import "src/assets/framework/_breakpoints";
+.releases{
+
+  background: #F5F3EE;
+  width: 100%;
+  padding-bottom: 20px;
+  .content{
+    margin: 0 auto;
+
+    .title{
+      padding: 0 15px ;
+      max-width: 360px;
+      margin-bottom: 20px;
+      @include tablets{
+        margin-bottom: 60px;
+      }
+      h2{
+        margin: 0;
+      }
+    }
+
+  }
+}
+@include mobile{
+  .flex{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding: 0 24px;
+  }
+  .title{
+    max-width: 100% !important;
+    font-size: 26px;
+
+  }
+
+}
+@include tablets{
+  .flex{
+    justify-content: unset !important;
+  }
+}
+@media (max-width: 1140px) {
+  .title{
+    padding: 0 24px !important;
+  }
+}
+@include tablets{
+  .flex{
+    row-gap: 20px;
+  }
+  .flex{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 !important;
+
+  }
+  .content{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+  .title{
+    padding: 0 !important;
+  }
+}

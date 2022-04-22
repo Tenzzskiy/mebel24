@@ -1,0 +1,10 @@
+$white: #fff;
+$background: rgba(245, 243, 238, 0.66);
+$descriptionHeader:#7B7976;
+
+
+@mixin defaultButton{
+  border: 0;
+  outline: none;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  color: #7B7976;
+  padding-top: 30px;
+  &:nth-child(1){
+    padding-top: 0;
+  }
+  @media (min-width: 1000px) {
+    padding-top: 40px;
+
+  }
+}

@@ -1,0 +1,102 @@
+@import "src/assets/base/_variables";
+@import "src/assets/framework/_breakpoints";
+.title{
+max-width: 88px;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  picture{
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.a{
+
+  min-width: 46%;
+  border-radius: 10px;
+
+  @include mobile{
+      background: white;
+      border: 0;
+      min-width: 30%;
+
+  }@include tablets{
+       background: white;
+       border: 0;
+       min-width: 30%;
+
+   }
+}
+.card{
+  @include mobile{
+
+
+  }
+  width: 100%;
+  border: 1px solid #D9D7D4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: all 0.3s;
+  &:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .content{
+    min-height: 48px;
+    &:hover img{
+  animation: fadein 1s alternate !important;
+      animation-name: fadein;
+    }
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    @include mobile{
+
+    }
+    img{
+
+      border-radius: 10px;
+      width: 50px;
+      height: 46px;
+
+    }
+  }
+}
+@include mobile{
+  .card{
+    background: white;
+    border: 0;
+    min-width: 100%;
+    max-width: 100%;
+
+  }
+}@include tablets{
+  .card{
+    background: white;
+    border: 0;
+    min-width: 100%;
+    max-width: 100%;
+
+  }
+}
+@keyframes fadein {
+  0%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

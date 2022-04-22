@@ -1,0 +1,24 @@
+@import 'src/assets/framework/_breakpoints';
+.additions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+.additions2{
+ display: none;
+}
+@include mobile {
+  .additions{
+    display: none;
+  }
+  .additions2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
+
+  }
+}

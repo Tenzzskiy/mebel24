@@ -1,0 +1,61 @@
+@import "src/assets/base/_variables";
+@import "src/assets/framework/_breakpoints";
+.disabled{
+  display: none !important;
+}
+.asks{
+  width: 100%;
+  background:$background;
+  padding:  0 15px;
+  padding-bottom: 80px;
+  span{
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #373532;
+  }
+}
+.button{
+  display: none;
+}
+@include mobile{
+  .asks{
+    padding: 0 24px 80px 24px;
+  }
+}
+@include tablets{
+  .asks{
+    padding: 60px 24px 80px 24px;
+  }
+  .content{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+
+    overflow-y: hidden;
+  }
+  .button{
+    &:hover{
+      background: #FFC46B;
+      transition: background-color 0.3s, color 0.3s,outline 0.3s;
+      color: black;
+      outline: 1px solid #FFC46B;
+    }
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s,outline 0.3s;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    min-height: 50px;
+    outline: 1px dashed #B7B4AE;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: #7B7976;
+  }
+}

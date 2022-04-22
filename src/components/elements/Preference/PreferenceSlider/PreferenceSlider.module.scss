@@ -1,0 +1,24 @@
+@import 'src/assets/framework/_breakpoints';
+
+.wrapper{
+  width: 100%;
+  overflow: hidden;
+}
+.slider{
+  min-width: 340px !important;
+  padding: 50px 0;
+  @include tablets{
+    padding: 120px 0 50px 0;
+  }
+}
+.slider_card{
+  min-width: 340px !important;
+  overflow: visible !important;
+  position: relative;
+}
+@include tablets{
+  .slider_card{
+    min-width: 367px !important;
+    min-height: 203px !important;
+  }
+}

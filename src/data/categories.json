@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/1"
+  },
+  {
+    "id": "2",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/2"
+  },
+  {
+    "id": "1",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/1"
+  },
+  {
+    "id": "2",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/2"
+  },
+  {
+    "id": "1",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/1"
+  },
+  {
+    "id": "2",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/2"
+  },
+  {
+    "id": "1",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/1"
+  },
+  {
+    "id": "2",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/2"
+  },
+  {
+    "id": "1",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/1"
+  },
+  {
+    "id": "2",
+    "title": "Для выставки",
+    "description": "Информационные экраны, специальная мебель и другое",
+    "img": "/images/categories/1.jpg",
+    "color": false,
+    "link": "/category/2"
+  }
+
+]

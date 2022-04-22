@@ -1,0 +1,90 @@
+.logotype{
+  padding-top: 5px;
+}
+.error{
+  width: 100vw;
+  min-height: 70vh;
+  background: #F5F3EE;
+  padding-bottom: 50px;
+  .content{
+    gap: 20px;
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1140px;
+    margin:  50px auto 0 auto;
+    background-image: url("/404.svg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    @media (max-width: 720px) {
+      background-position: bottom;
+    }
+    .numbers{
+      position: absolute;
+      color: #D9D7D4;
+      opacity: 0.3;
+      font-size: 532px;
+      text-align: center;
+    }
+  }
+}
+.errorImg{
+  padding: 0 15px;
+
+  top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    border-radius: 40px;
+    width: 100%;
+    max-height: 321px;
+    max-width: 721px;
+  }
+}
+.desc{
+  width: 100%;
+  margin-bottom: 50px;
+gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .span1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #141311;
+  }
+  .span2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #7B7976;
+  }
+  .button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #141311;
+    background: #FFC46B;
+    border-radius: 30px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    width: 255px;
+    height: 50px;
+  }
+}

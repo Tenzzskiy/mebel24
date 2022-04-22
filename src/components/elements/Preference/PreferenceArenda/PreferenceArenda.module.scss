@@ -1,0 +1,57 @@
+@import 'src/assets/framework/_breakpoints';
+.arenda{
+  background: #F5F3EE;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  @include tablets{
+    padding-top: 70px;
+  }
+}
+.content{
+  z-index: 3;
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding:0 15px 10px 15px;
+  width: 100%;
+display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+@include mobile{
+  .content{
+
+    padding: 0 24px 60px 24px;
+  }
+}
+@include tablets{
+  .content{
+    padding: 24px 0 60px 0;
+    justify-content: unset;
+
+  }
+}
+.arenda2{
+  width: 173px;
+
+}
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: font-1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  color: #141311;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,24 @@
+
+
+.flagElement{
+
+
+  .flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    .ribbon{
+      margin-right: 10px;
+    }
+    .text{
+      max-width: 200px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #141311;
+      font-family: font-2;
+    }
+  }
+}

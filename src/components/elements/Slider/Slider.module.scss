@@ -1,0 +1,161 @@
+@import "src/assets/framework/_breakpoints";
+.slider_card{
+  min-width: 270px !important;
+  max-width: 270px !important;
+  width: 270px !important;
+
+ @include tablets{
+   overflow: unset !important;
+   display: flex;
+   align-items: flex-end;
+   transition: width 0.3s;
+   &:hover{
+
+
+
+   }
+ }
+}
+@media (max-width: 720px) {
+  .slider_card2{
+    min-width: 320px !important;
+    max-width: 320px !important;
+  }
+}
+
+@include tablets{
+  .slider_card2{
+    min-width: 270px !important;
+    max-width: 270px !important;
+    width: 270px !important;
+
+  }
+  .wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px;
+
+  }
+}
+.arrows{
+  @include tablets{
+    position: absolute;
+    top: -40px;
+    z-index: 4;
+    right: 0;
+  }
+  width: 100%;
+  max-width: 130px;
+  margin: 0  auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.slider{
+  padding: 0 0 40px 5px!important;
+  align-items: flex-end;
+
+  @include tablets{
+    overflow: unset !important;
+  }
+}
+.arrowLeft{
+  cursor: pointer;
+  border-radius: 50%;
+  &:hover{
+    background: #FFC46B;
+    transition: all 0.3s;
+    circle{
+      stroke: #FFC46B;
+    }
+    path{
+      fill: white ;
+    }
+  }
+  circle{
+    stroke: #B7B4AE;
+  }
+  path{
+    fill: #B7B4AE ;
+    transition: all 0.3s;
+  }
+max-width: 50px !important;
+  max-height: 50px !important;
+  margin-bottom: 80px;
+  transition: all 0.3s;
+}
+.arrowRight{
+  cursor: pointer;
+  border-radius: 50%;
+  &:hover{
+    background: #FFC46B;
+    transition: all 0.3s;
+    circle{
+      stroke: #FFC46B;
+    }
+    path{
+      fill: white ;
+    }
+  }
+  circle{
+    stroke: #B7B4AE;
+  }
+  path{
+    fill: #B7B4AE ;
+    transition: all 0.3s;
+  }
+  transition: all 0.3s;
+margin-bottom: 80px;
+}
+.arrowDisabled{
+  &:hover{
+    background: unset;
+    transition: all 0.3s;
+    circle{
+      stroke: #D9D7D4;
+    }
+    path{
+      fill: #D9D7D4;
+    }
+  }
+  transition: all 0.3s;
+  circle{
+    stroke: #D9D7D4;
+  }
+  path{
+    fill: #D9D7D4;
+  }
+  margin-bottom: 80px;
+}
+@media (max-width: 1140px) {
+  .slider{
+    padding: 0 24px 40px 0 !important;
+  }
+  .slider_card2{
+    min-width: 270px;
+    max-width: 270px ;
+    width: 270px ;
+
+  }
+}
+@import "src/assets/framework/_breakpoints";
+@include mobile{
+  .slider{
+  padding: 0 24px ;
+  }
+  .slider_card2{
+    min-width: 240px ;
+    max-width: 240px ;
+    width: 240px;
+
+  }
+
+}
+.wrapper{
+  position: relative;
+  z-index: 2;
+  @media (max-width: 1000px) {
+    padding: 0 0 0 15px;
+  }
+}

@@ -1,0 +1,86 @@
+@import "src/assets/framework/_breakpoints";
+.array{
+
+
+
+  .slider{
+
+    .slide{
+      cursor: pointer;
+      position: relative;
+      min-width: 50px;
+      //margin-right: 10px;
+      max-width: 50px;
+      max-height: 50px;
+
+      box-sizing: border-box;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:last-child{
+        margin-right: 50px !important;
+      }
+      img{
+        min-width: 50px;
+        min-height: 50px;
+        border-radius: 0;
+      }
+    }
+  }
+}
+.activeBorder{
+  border: 2px solid #B7B4AE;
+
+}
+@include mobile{
+
+
+
+  .array{
+
+    .slider{
+margin-top: 10px;
+      .slide{
+      min-width: 50px;
+        max-width: 50px;
+
+        box-sizing: border-box;
+        border-radius: 10px;
+        img{
+          min-width: 50px;
+          min-height: 50px;
+
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+.add{
+  transition: all 0.3s;
+  opacity: 0;
+  position: absolute;
+  background: rgba(102, 158, 101, 0.3);
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #669E65;
+    border-radius: 20px;
+    width: 27px;
+    height: 28px;
+  }
+}
+.activeAdd{
+  transition: all 0.3s;
+  opacity: 1 !important;
+
+}

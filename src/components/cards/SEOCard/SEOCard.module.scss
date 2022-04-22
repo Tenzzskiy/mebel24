@@ -1,0 +1,51 @@
+@import "src/assets/framework/_breakpoints";
+.title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  color: #141311;
+  margin-bottom: 20px;
+  font-family: font-1;
+}
+.p{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: font-2;
+    color: #141311;
+    padding-bottom: 20px;
+
+}
+@include mobile{
+  .title{
+    padding-top: 20px;
+  }
+  .p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: font-3;
+    color: #141311;
+  }
+
+}
+@include tablets{
+  .text{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .title{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .p{
+    max-width: 662px;
+
+  }
+}

@@ -1,0 +1,241 @@
+@import "src/assets/framework/_breakpoints";
+.privacy{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: #B7B4AE;
+  margin-bottom: 16px;
+
+  font-family: font-2;
+}
+.flex{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.icons{
+  width: 85px;
+  display: flex;
+  justify-content: flex-end;
+  @media (max-width: 720px) {
+    justify-content: flex-start;
+  }
+}
+.footer{
+  width: 100%;
+  background: #141311;
+  .mobile_itemsFlex{
+    display: flex;
+    flex-direction: row;
+
+   div {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 17px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+   }
+    gap: 40px;
+    color: #7B7976;
+    margin-bottom: 50px;
+  }
+  .content{
+    padding: 20px 15px;
+    .item{
+      .yandex{
+      width: 128px;
+        height: 45px;
+        background: #C4C4C4 !important;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #7B7976;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+      margin-bottom: 5px;
+      span{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+.privacy2{
+  display: none;
+
+}
+.p{
+  display: none;
+}
+@include mobile{
+  .privacy2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    color: #B7B4AE;
+    margin-bottom: 16px;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column;
+    font-family: font-2;
+  }
+  .item_flex{
+    justify-content: space-between!important;
+  }
+  .content{
+    padding: 30px 24px 5px 24px !important;
+  }
+  .yandex_disable{
+    display: none !important;
+  }
+  .flex{
+    margin-bottom: 20px !important;
+    justify-content: space-between;
+  }
+  .item:not(:last-child){
+    display: flex !important;
+    justify-content: flex-end;
+    p{
+      text-align: right !important;
+    }
+  }
+  .footer{
+
+  }
+  .item:last-child{
+    display: none;
+  }
+  .privacy{
+    display: none;
+  }
+  .privacy2{
+    display: block;
+  }
+  .p{
+    display: block;
+  }
+}
+.footer2{
+  display: none;
+}
+@include tablets {
+
+  .yandex{
+    width: 128px;
+    height: 45px;
+    color: black;
+    background: #C4C4C4 !important;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer{
+
+    display: none;
+  }
+
+  .footer2{
+    padding: 0 80px;
+    font-family: font-3;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #B7B4AE;
+    display: block;
+    width: 100%;
+    background: #141311;
+    min-height: 318px;
+    .content2{
+      padding: 50px 0 !important;
+      height: 318px;
+      width: 100%;
+      max-width: 1140px;
+      margin: 0 auto;
+      .flex2{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .item2{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+        }.item3{
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           height: 55%;
+        align-items: flex-start;
+         }.item4{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 38%;
+
+          }.item5{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        align-items: flex-end;
+          .number{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+          }
+        .mail{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: right;
+          text-transform: lowercase;
+          color: #D9D7D4;
+        }
+          }
+      }
+    }
+  }
+}
+.telephone{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mobile_item2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7B7976;
+}

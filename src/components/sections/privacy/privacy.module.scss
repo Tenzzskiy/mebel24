@@ -1,0 +1,14 @@
+.privacy{
+  width: 100%;
+  height:100%;
+  background: #E5E5E5;
+  scroll-behavior: smooth;
+  .content{
+    padding: 100px 15px;
+    @media (min-width: 1000px) {
+      padding: 150px 15px;
+    }
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,86 @@
+.hover{
+  &:hover{
+    background: #D9D7D4 !important;
+    transition: background-color 0.3s;
+  }
+}
+.card{
+  overflow: hidden;
+  &:hover{
+    background: #FFC46B;
+    transition: background-color 0.3s;
+  }
+  &:hover .icon{
+    svg{
+      line{
+        stroke: white;
+        transition: all 0.3s;
+      }
+    }
+  }
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  padding: 0 15px;
+  background: white;
+  min-height: 50px;
+  margin-top: 20px;
+  border-radius: 20px;
+  .content{
+    display: flex;
+    flex-direction: column;
+    padding:15px 0;
+    position: relative;
+    overflow: hidden;
+  width: 100%;
+    flex-direction: column;
+
+    opacity: 1 !important;
+
+    div{
+     display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+
+      margin: 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #373532;
+      font-family: font-3;
+    }
+  }
+}
+.icon{
+  transition: stroke 0.3s;
+  position: absolute;
+  right: 0;
+  max-width: 24px;
+  transform: rotate(90deg);
+}
+
+.flex{
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  div:last-child{
+display: flex;
+    justify-content: flex-end;
+  }
+
+}
+.text{
+  padding: 20px 0;
+  font-weight: 500;
+  opacity: 1;
+  font-size: 16px;
+  line-height: 20px;
+  color: #373532;
+  display: none;
+  transition: all 0.3s;
+}

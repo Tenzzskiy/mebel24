@@ -1,0 +1,47 @@
+.info{
+  @media (min-width: 1000px) {
+    max-width: 367px;
+    border-radius: 20px;
+  }
+  width: 100%;
+  background: white;
+
+  .content{
+    height: 353px;
+    padding: 24px 15px;
+  }
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #141311;
+  &:nth-child(1){
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #141311;
+  }
+}
+.youtube{
+  opacity: 0.3;
+}
+.flex{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+height: 100%;
+}
+.icon{
+  min-width: 30px;
+}

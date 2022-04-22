@@ -1,0 +1,35 @@
+@import "src/assets/base/_variables.scss";
+.disabled{
+  display: none !important;
+}
+.button{
+  font-family: font-3;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 80px;
+  button{
+    &:hover{
+        background: #373532;
+        color: white;
+        transition: all 0.3s;
+
+    }
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0 auto;
+    @include defaultButton;
+    background: inherit;
+    width: 138px;
+    height: 39px;
+    color: #7B7976;
+    border: 1px solid #7B7976;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

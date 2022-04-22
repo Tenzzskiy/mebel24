@@ -1,0 +1,76 @@
+.bucket{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  svg{
+    margin-right: 5px;
+  }
+  div{
+    display: flex;
+    align-items: center;
+
+  }
+  div:last-child{
+    justify-content: flex-start!important;
+  }
+}
+.svg{
+  display: flex;
+  align-items: center;
+}
+.disabled{
+  display: none !important;
+}
+.item6{
+  padding: 0 15px;
+  transition: all 0.3s;
+  border-radius: 30px;
+  width: 173px;
+  height: 40px;
+  background: #B7B4AE;
+}
+.item5{
+  padding: 0 15px;
+  transition: all 0.3s;
+  background: #141311;
+  border-radius: 30px;
+  width: 173px;
+  height: 40px;
+
+  align-items: center;
+  display: flex;
+  color: white;
+  div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+  }
+  div:last-child{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.num{
+  display: flex;
+  justify-content: flex-start !important;
+  width: 100%;
+  align-items: center;
+}
+.totalSum{
+  color: white;display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-left: 2px solid rgba(183, 180, 174, 0.49);
+
+}
+.empty{
+  width: 173px;
+  height: 40px;
+  background: black;
+}
+.a{
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}

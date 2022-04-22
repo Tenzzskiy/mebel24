@@ -1,0 +1,51 @@
+.background1{
+  pointer-events: none;
+  position: absolute;
+  top: 270px;
+
+  opacity: 0.6;
+  z-index: 1;
+  width: 100%;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+.background2{
+  pointer-events: none;
+  position: absolute;
+  top: 1600px;
+  height: 1100px;
+  opacity: 1;
+  z-index: 1;
+  width: 100%;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+.background3{
+  pointer-events: none;
+  position: absolute;
+  top: 3600px;
+  height: 1100px;
+  opacity: 1;
+  z-index: 1;
+  width: 100%;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+.content{
+  z-index: 2;
+}

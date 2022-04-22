@@ -1,0 +1,123 @@
+.border{
+  border: 1px solid darkred;
+  transition: all 0.3s;
+}
+.button2{
+  width: 250px;
+  height: 48px;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  background: #669E65;
+  border-radius: 30px;
+}
+.modal{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 360px;
+    @media (max-width: 360px) {
+      width: 100%;
+    }
+    .order{
+      height: 100%;
+      text-align: center;
+      padding: 30px 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        .title{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 32px;
+          color: #141311;
+        }
+        .desc{
+          margin-bottom: 20px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+          color: #B7B4AE;
+        }
+      }
+      .button{
+        cursor: pointer;
+        font-family: font-3;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #141311;
+        background: #FFC46B;
+        border-radius: 30px;
+        text-decoration: none;
+        border: 0;
+        outline: none;
+        width: 250px;
+        height: 48px;
+        opacity: 1;
+        transition: all 0.3s;
+      }
+      .buttons{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .input{
+        transition: all 0.3s;
+        cursor: pointer;
+        color: black;
+        width: 250px;
+        height: 46px;
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 14px;
+        text-align: center;
+      }
+      .disable{
+        opacity: 0.5;
+        transition: all 0.3s;
+        cursor: unset;
+      }
+      .button_desc{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #B7B4AE;
+        a{
+          margin-left: 4px;
+          color: #FFC46B;
+          cursor: pointer;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

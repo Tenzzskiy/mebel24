@@ -1,0 +1,31 @@
+.slider{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.slide{
+  transition: background-color 0.3s;
+  &:hover{
+    transition: all 0.3s;
+    background: #373532;
+    color: white !important;
+  }
+  width: unset;
+  border: 1px solid #B7B4AE;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7B7976;
+}
+.a{
+  &:nth-child(5){
+    min-width: 200px;
+  }
+}
