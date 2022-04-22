@@ -2,7 +2,6 @@ import React, {useEffect, useRef, useState} from 'react';
 import styles from './bucketRight.module.scss'
 import {useSelector} from "react-redux";
 import {CatalogCardsProps} from "../../../../Types/Types.props";
-import Plus from "../../../icons/Plus";
 import useOnClickOutside from "../../../../hooks/useOnClickOutside";
 import useWindowSize from "../../../../hooks/useWindowSize";
 import Calendar from 'react-calendar';
@@ -11,7 +10,6 @@ import classNames from "classnames";
 import {convertToNumberWithSpaces} from "../../../../utilites/helpers/helpers";
 import Portal from "../../../../hooks/Portal/Portal";
 import OverlayingPopup from "../../../../hooks/OverlayingPopup/OverlayingPopup";
-import Menu from "../../Menu";
 import {AnimatePresence} from "framer-motion";
 import OrderModal from "../../orderModal";
 import DeliveryIcon from "../../../icons/DeliveryIcon";
@@ -137,10 +135,10 @@ const BucketRight = ({
                         {orderModal && <Portal>
                             <OverlayingPopup isOpened={orderModal} onClose={() => {
                                 // @ts-ignore
-                                setMenu(prev => !prev);
+                                setOrderModal(prev => !prev);
                             }
                             }>
-                                <OrderModal setOrderModal={setOrderModal}  />
+                                <OrderModal time={time} totalPrice={convertToNumberWithSpaces(renderPrice())}  setOrderModal={setOrderModal}  />
                             </OverlayingPopup>
                         </Portal>}
                     </AnimatePresence>

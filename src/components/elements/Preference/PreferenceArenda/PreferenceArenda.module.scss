@@ -38,20 +38,29 @@ display: flex;
   width: 173px;
 
 }
+.disable{
+  display: none !important;
+}
 .button{
   width: 100%;
   display: flex;
   justify-content: center;
+  height: 50px;
   align-items: center;
+  div{
+    margin-bottom: 0;
+  }
 }
 .title{
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto 16px auto;
   font-family: font-1;
   font-style: normal;
   font-weight: 500;
   font-size: 38px;
   line-height: 46px;
   color: #141311;
-  margin-bottom: 16px;
+  @media (max-width: 1000px) {
+    padding: 0 15px;
+  }
 }

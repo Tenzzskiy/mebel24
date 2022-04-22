@@ -2,8 +2,7 @@ import React, {useContext} from 'react';
 import styles from './BucketSetcion.module.scss'
 import BucketElement from "../../elements/bucket/bucketElement";
 import ActionSection from "../ActionSection/ActionSection";
-import catalog from "../../../data/catalog.json";
-import {PropsCardsContext, SliderCardsContext} from "../../../context/context";
+import {SliderCardsContext} from "../../../context/context";
 import {parseSliderCardsData} from "../../../hooks/parsers/parser";
 import Portal from "../../../hooks/Portal/Portal";
 import OverlayingPopup from "../../../hooks/OverlayingPopup/OverlayingPopup";

@@ -1,11 +1,16 @@
 import {Props} from "./layout.props";
-import {AppWrapper} from "../../utilites/helpers/helpers";
+import {AppWrapper, loadScript} from "../../utilites/helpers/helpers";
+import {useEffect} from "react";
+
 
 
 
 
 
 const Layout = ({children}: Props): JSX.Element => {
+    useEffect(() => {
+        loadScript('/main.js');
+    });
     return (
         <>
             <AppWrapper >

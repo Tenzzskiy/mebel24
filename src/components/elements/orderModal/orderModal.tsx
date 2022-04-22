@@ -5,13 +5,19 @@ import styles from './orderModal.module.scss'
 import Link from 'next/link';
 import {FormInput} from "../../../hooks/FormInput";
 import classNames from "classnames";
+import {useSelector} from "react-redux";
+import {sendEmail} from "../../../utilites/helpers/helpers";
+import axios from "axios";
 
 interface Props {
-    setOrderModal:Dispatch<SetStateAction<boolean>>
+    setOrderModal:any,
+    totalPrice?:any,
+    time?:any,
 }
 
-const OrderModal = ({setOrderModal}:Props) => {
-
+const OrderModal = ({totalPrice,setOrderModal,time}:Props) => {
+    // @ts-ignore
+    const items = useSelector(state => state.cart.itemsInCart);
     const modal_f = useRef(null);
     const size= useWindowSize();
     useOnClickOutside(modal_f,() => size.width > 720 ? setOrderModal(false) : null)
@@ -28,8 +34,12 @@ const OrderModal = ({setOrderModal}:Props) => {
             setError(false);
         }
     }
-    const sendOrder = () => {
+    const sendOrder = async () => {
         setSuccess(true)
+
+        const res: any = await axios.post('/api/', {phone, totalPrice, items, time});
+        const {success} = res.data;
+        console.log(success)
         const timerID = setTimeout(() =>{
             setOrderModal(false)
             clearTimeout(timerID);

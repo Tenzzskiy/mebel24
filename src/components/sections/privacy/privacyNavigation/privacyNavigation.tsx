@@ -9,12 +9,12 @@ const PrivacyNavigation = () => {
         'Основное','Доставка','Оплата','Самовывоз',
         'Монтаж и демонтаж','Возврат','Продление',
     ]
-    const [ref] = useKeenSlider<HTMLDivElement>({
-        slides: {
-            perView: "auto",
-            spacing: 20,
-        },
-    })
+    // const [ref] = useKeenSlider<HTMLDivElement>({
+    //     slides: {
+    //         perView: "auto",
+    //         spacing: 20,
+    //     },
+    // })
     const navButtons = buttons.map((elem:any,index:number) =>
         <Link key={index} href={`#${index+1}`}><a className={styles.a} >
         <div  className={classNames(styles.slide,"keen-slider__slide number-slide1")}>
@@ -25,7 +25,7 @@ const PrivacyNavigation = () => {
     )
     return (
         <div>
-            <div ref={ref} className={classNames(styles.slider,"keen-slider")}>
+            <div  className={classNames(styles.slider,"keen-slider")}>
                 {navButtons}
             </div>
         </div>

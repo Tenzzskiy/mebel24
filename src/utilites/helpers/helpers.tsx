@@ -118,9 +118,17 @@ export const getCartFromLocaleStorage = () => {
     return cart;
 };
 
+export const loadScript = (src: string) => {
+    const scriptElement = document.createElement('script');
+    scriptElement.type = 'text/javascript';
+    scriptElement.src = src;
+    scriptElement.async = false;
+    scriptElement.setAttribute('defer', '');
+    document.body.appendChild(scriptElement);
+};
 
-export async function sendEmail(cards:any[],contactsInfo:string,type:string,totalPrice:number|string) {
-    const POST_URL = '/api/email'
+export async function sendEmail(cards:any[],contactsInfo:string|any,type:string,totalPrice:number|string) {
+    const POST_URL = '/api/index'
 
 
     const response = await fetch(POST_URL,{
@@ -129,6 +137,7 @@ export async function sendEmail(cards:any[],contactsInfo:string,type:string,tota
             "Content-Type":"application/json",
 
         },
+
         body:JSON.stringify({type:type,cards:cards,phone:contactsInfo,totalPrice:totalPrice})
     })
 

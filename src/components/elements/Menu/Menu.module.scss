@@ -79,7 +79,7 @@
     }
   }
   .menu{
-    background: $background !important;
+    background: #F5F3EE !important;
     max-height: 70vh !important;
   }
   .flex{
@@ -118,6 +118,8 @@
   flex-wrap: wrap;
   gap: 20px;
   flex-direction: row !important;
+  justify-content: space-between;
+
   @media (max-width: 720px) {
     align-items: center;
     width: 100% !important;
@@ -127,7 +129,6 @@
 .menuItems2{
   width: 100%;
   display: flex;
-  padding-right: 10px;
   gap: 20px;
   flex-direction: column !important;
   @media (max-width: 720px) {
@@ -154,7 +155,7 @@
   flex-direction: row;
   justify-content: space-between !important;
   width: 100%;
-  padding: 0 15px;
+  padding: 10px 15px 20px 15px;
   .button{
     margin-bottom: 0;
     align-self: center;
@@ -162,7 +163,7 @@
 }
 .menu{
   width: 100vw;
-  height: 76vh;
+  height: 100vh;
   background: white;
   .content{
     max-height: 100%;
@@ -182,7 +183,7 @@
     max-width: 1140px;
     margin: 0 auto;
     .flex{
-
+    border-top: 1px solid #D9D7D4;
       div{
 
         height: 50px;
@@ -224,14 +225,26 @@
       font-size: 16px;
       line-height: 20px;
       color: #7B7976;
-      max-height: 52vh;
+
       overflow-y: scroll;
+      &::-webkit-scrollbar-thumb{
+        background: #B7B4AE;
+        opacity: 0.23;
+        border-radius: 10px;
+      }
+      &::-webkit-scrollbar{
+        width: 5px;
+        height: 5px;
+        background: inherit;
+        opacity: 0.23;
+        border-radius: 10px;
+      }
       width: 100%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
-      padding: 50px 15px 15px 15px;
+      padding: 0 15px 15px 15px;
 
       row-gap: 20px;
       column-gap: 20px;

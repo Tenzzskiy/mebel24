@@ -17,7 +17,7 @@ const Feedback = () => {
                  {orderModal && <Portal>
                      <OverlayingPopup isOpened={orderModal} onClose={() => {
                          // @ts-ignore
-                         setMenu(prev => !prev);
+                         setOrderModal(prev => !prev);
                      }
                      }>
                          <OrderModal setOrderModal={setOrderModal}  />

@@ -44,7 +44,9 @@ const Menu = ({MenuCards, setMenu}: setMenu) => {
             >
 
                 <div className={styles.content}>
-                    <div className={styles.button_flex}><div> <Logotype /></div>
+                    <div className={styles.button_flex}>
+                        {/*<div> <Logotype /></div>*/}
+                        <div> </div>
                         {/*// @ts-ignore*/}
                         <div className={styles.button} onClick={typeof setMenu !== 'undefined' ? () => setMenu(prev => !prev) : null}>Закрыть </div>  </div>
 
